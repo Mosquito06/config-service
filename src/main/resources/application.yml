@@ -9,16 +9,16 @@ spring:
     port: 5672
     username: guest
     password: guest
-  profiles:
-    active: native
+#  profiles:
+#    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: file:///GIT/learningMSA/native-file-repo
+#        native:
+#          search-locations: file:///GIT/learningMSA/native-file-repo
         git:
 #          uri: file:///GIT/learningMSA/git-local-repo
-#          uri: https://github.com/Mosquito06/spring-cloud-config.git
+          uri: https://github.com/Mosquito06/spring-cloud-config.git
 #          username:
 #          password:
 

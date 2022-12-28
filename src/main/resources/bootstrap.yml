@@ -1,6 +1,7 @@
 encrypt:
 #  key: werwerfasdfcvoiuwerlkjsdvmnclvkj343434jh3434lkjsd
   key-store:
-    location: file:///GIT/learningMSA/keystore/apiEncryptionKEy.jks
+#    location: file:///GIT/learningMSA/keystore/apiEncryptionKEy.jks
+    location: file:/apiEncryptionKEy.jks
     password: test1234
     alias: apiEncryptionKey
